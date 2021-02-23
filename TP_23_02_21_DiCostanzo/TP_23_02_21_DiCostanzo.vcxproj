@@ -139,10 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GW.cpp" />
+    <ClCompile Include="King.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PNJ.cpp" />
+    <ClCompile Include="Queen.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="UC.cpp" />
+    <ClCompile Include="Vecteur.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GW.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="King.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PNJ.h" />
+    <ClInclude Include="Queen.h" />
+    <ClInclude Include="UC.h" />
+    <ClInclude Include="Vecteur.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
